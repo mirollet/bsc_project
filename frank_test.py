@@ -9,6 +9,7 @@ from frank.make_figs import make_quick_fig
 
 # code for producing frank quick fit figure (section 2) adapted from frank quickstart tutorial
 # https://discsim.github.io/frank/quickstart.html
+# as209 visibility data available here: https://github.com/discsim/frank/blob/master/docs/tutorials/AS209_continuum.npz
 
 
 as209_dat = np.load('AS209_continuum.npz')
