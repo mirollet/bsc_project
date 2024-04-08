@@ -7,6 +7,9 @@ from frank.radial_fitters import FrankFitter
 from frank.geometry import FitGeometryGaussian
 from frank.make_figs import make_quick_fig
 
+# code for producing frank quick fit figure (section 2) adapted from frank quickstart tutorial
+# https://discsim.github.io/frank/quickstart.html
+
 
 as209_dat = np.load('AS209_continuum.npz')
 u, v, vis, weights = [as209_dat[k] for k in ['u', 'v', 'V', 'weights']]
