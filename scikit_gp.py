@@ -5,6 +5,10 @@ from sklearn.gaussian_process.kernels import RBF
 from sklearn.gaussian_process.kernels import Matern
 import pandas as pd
 
+# code for producing gaussian process figures (section 2), adapted from various scikit-learn gp regression tutorials 
+# https://scikit-learn.org/stable/modules/gaussian_process.html
+
+
 def plot_gpr_samples(gpr_model, n_samples):
     """Plot samples drawn from the Gaussian process model.
 
